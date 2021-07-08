@@ -20,4 +20,7 @@ export default {
   content: "";
   position: absolute;
 }
+.hero {
+  width: 80vw;
+}
 </style>>

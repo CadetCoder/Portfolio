@@ -16,4 +16,8 @@ export default {
   justify-content: center;
   align-items: center;
 }
+#home::before {
+  content: "";
+  position: absolute;
+}
 </style>>

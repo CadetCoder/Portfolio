@@ -23,6 +23,7 @@ export default {
   left: 0;
   width: 100vw;
   height: 100vh;
+  background-image: url("../assets/patterns/Reuss.svg");
 }
 .hero {
   width: 80vw;

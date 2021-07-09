@@ -24,6 +24,9 @@ export default {
   width: 100vw;
   height: 100vh;
   background-image: url("../assets/patterns/Reuss.svg");
+  background-size: cover;
+  filter: brightness(0.1);
+  z-index: 0;
 }
 .hero {
   width: 80vw;

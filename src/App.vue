@@ -3,6 +3,9 @@
    <transition name="menu-transition">
      <Menu class="menu-bar"/>
    </transition>
+   <transition name="hidden-div-transition">
+     <div class="hidden-div"></div>
+   </transition>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>

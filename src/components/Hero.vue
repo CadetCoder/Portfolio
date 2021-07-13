@@ -7,5 +7,8 @@
         <h3>Web Developer</h3>
       </div>
     </div>
+    <aside class="hero-image">
+      <img src="" alt="">
+    </aside>
   </main>
 </template>

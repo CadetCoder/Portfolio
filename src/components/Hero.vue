@@ -8,7 +8,25 @@
       </div>
     </div>
     <aside class="hero-image">
-      <img src="" alt="">
+      <img
+        ref="img"
+        src=""
+        alt="Self portrait of Darrel">
     </aside>
   </main>
 </template>
+
+<script>
+export default {
+  name: "Hero"
+}
+</script>
+
+<style scoped>
+main {
+  display: flex;
+  flex-flow: row wrap-reverse;
+  justify-content: space-between;
+  width: 100%;
+}
+</style>

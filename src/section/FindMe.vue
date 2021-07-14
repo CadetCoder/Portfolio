@@ -9,7 +9,21 @@
           title="email"
           content="darreltoledo@icloud.com"
         />
+        <FindMeIcons
+          title="github"
+          content="cadetCoder"
+          link="https://github.com/cadetCoder"
+        />
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name="FindMe",
+  components:{
+    FindMeIcons
+  }
+}
+</script>

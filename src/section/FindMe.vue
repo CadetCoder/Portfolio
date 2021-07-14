@@ -3,6 +3,9 @@
     <h1>Contact Me</h1>
     <div class="find-me-container">
       <img ref="img" src="" alt="">
+      <div class="icons">
+        
+      </div>
     </div>
   </div>
 </template>

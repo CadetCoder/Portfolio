@@ -13,4 +13,14 @@
   background-color: #313131;
   height: 30px;
 }
+.find-me-icons-main-container {
+  cursor: pointer;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #111111;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+}
 </style>

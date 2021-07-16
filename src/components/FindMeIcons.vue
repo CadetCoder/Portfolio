@@ -6,3 +6,11 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.horizontal-divider {
+  width: 1px;
+  background-color: #313131;
+  height: 30px;
+}
+</style>

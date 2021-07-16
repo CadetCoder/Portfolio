@@ -32,4 +32,8 @@
 .find-me-icons-main-container:hover img {
   opacity: 0.9;
 }
+
+find-me-icons-main-container:hover strong {
+  opacity: 0.9;
+}
 </style>

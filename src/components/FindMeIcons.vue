@@ -23,4 +23,9 @@
   border-radius: 20px;
   transition: all 0.2s ease-in-out;
 }
+
+.find-me-icons-main-container:hover {
+  background-color: #1c1c1c;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.4);
+}
 </style>

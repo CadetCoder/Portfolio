@@ -2,8 +2,11 @@
   <div class="find-me-icons-main-container"
   @click="openLink">
     <div class="fine-me-icons-header">
-      <img :src="require(`../assets/icons/${title}-white.svg`)" class="horizontal-divider">
+      <img :src="require(`../assets/icons/${title}-white.svg`)" :alt="title" />
+      <div class="horizontal-divider"></div>
+    <strong> {{ title }} </strong>
     </div>
+    <p> {{ content }}</p>
   </div>
 </template>
 <script>

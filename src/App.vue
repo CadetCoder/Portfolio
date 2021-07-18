@@ -6,17 +6,17 @@
    <transition name="hidden-div-transition">
      <div class="hidden-div"></div>
    </transition>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <FindMe id="find-me" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FindMe from './section/FindMe'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FindMe
   }
 }
 </script>

@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import FinMeIcons from "../components/FindMeIcons"
+import FindMeIcons from "../components/FindMeIcons"
 export default {
   name: "FindMe",
   components:{

@@ -1,7 +1,10 @@
 <template>
   <div id="app">
    <transition name="menu-transition">
-     <Menu class="menu-bar"/>
+     <Menu 
+      v-if="showMenu"
+      class="menu-bar"
+      v-on:close="showMenu = false"/>
    </transition>
    <transition name="hidden-div-transition">
      <div class="hidden-div"></div>
@@ -17,6 +20,11 @@ export default {
   name: 'App',
   components: {
     FindMe
+  },
+  data() {
+    return {
+      showMenu: false
+    }
   }
 }
 </script>

@@ -21,7 +21,7 @@
       xml:space="preserve"
       class="logo"
       @click="scrollToTop"
-    >
+    />
     <FindMe id="find-me" />
   </div>
 </template>

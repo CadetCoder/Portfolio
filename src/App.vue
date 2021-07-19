@@ -9,6 +9,19 @@
    <transition name="hidden-div-transition">
      <div class="hidden-div"></div>
    </transition>
+   <svg
+      version="1.1"
+      id="Layer_1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      x="0px"
+      y="0px"
+      viewBox="0 0 400 400"
+      style="enable-background: new 0 0 400 400"
+      xml:space="preserve"
+      class="logo"
+      @click="scrollToTop"
+    >
     <FindMe id="find-me" />
   </div>
 </template>
@@ -25,7 +38,14 @@ export default {
     return {
       showMenu: false
     }
-  }
+  },
+  methods: {
+    scrollToTop() {
+      document.getElementById("app").scrollIntoView({
+      behavior: "smooth"
+      })
+    }
+  },
 }
 </script>
 

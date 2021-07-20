@@ -22,16 +22,19 @@
       class="logo"
       @click="scrollToTop"
     />
+    <Home id="home" class="section" />
     <FindMe id="find-me" />
   </div>
 </template>
 
 <script>
+import Home from "./section/Home"
 import FindMe from './section/FindMe'
 
 export default {
   name: 'App',
   components: {
+    Home,
     FindMe
   },
   data() {

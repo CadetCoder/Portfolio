@@ -1,10 +1,13 @@
 <template>
   <div id="home">
+    <Hero class="hero" />
   </div>
 </template>
 <script>
+import Hero from '../components/Hero.vue'
 export default {
-  //
+  name: "Hero",
+  components: { Hero }
 }
 </script>
 

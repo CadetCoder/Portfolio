@@ -1,10 +1,15 @@
 <template>
-  <div></div>
+  <div>
+    <Description class="description"/>
+  </div>
 </template>
 <script>
+import Description from "../components/Description"
 export default {
   name: "Me",
-  components: {}
+  components: {
+    Description
+  }
 }
 </script>
 

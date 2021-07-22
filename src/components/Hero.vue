@@ -18,7 +18,14 @@
 
 <script>
 export default {
-  name: "Hero"
+  name: "Hero",
+  methods: {
+    goToMe() {
+      document.getElementById("me").scrollIntoView({
+      behavior: "smooth"
+      })
+    }
+  }
 }
 </script>
 

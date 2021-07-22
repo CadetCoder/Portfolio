@@ -10,7 +10,7 @@
     <aside class="hero-image">
       <img
         ref="img"
-        src=""
+        src="../assets/images/home-main.jpg"
         alt="Self portrait of Darrel">
     </aside>
   </main>

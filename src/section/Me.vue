@@ -21,4 +21,8 @@ div {
   align-items: center;
   background-image: url("../assets/patterns/topography.svg");
 }
+
+.description {
+  width: 60vw;
+}
 </style>

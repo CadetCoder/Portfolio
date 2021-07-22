@@ -23,18 +23,21 @@
       @click="scrollToTop"
     />
     <Home id="home" class="section" />
+    <Me id="me" class="section" />
     <FindMe id="find-me" />
   </div>
 </template>
 
 <script>
-import Home from "./section/Home"
+import Home from './section/Home'
+import Me from './section/Me'
 import FindMe from './section/FindMe'
 
 export default {
   name: 'App',
   components: {
     Home,
+    Me,
     FindMe
   },
   data() {

@@ -43,6 +43,12 @@ h1 {
   font-size: clamp(32px, 4vw, 52px);
 }
 
+h2 {
+  margin: 0;
+  font-weight: 900;
+  font-size: clamp(62px, 8vw, 44px)
+}
+
 img {
   border:10px solid white;
   border-radius: 50%;

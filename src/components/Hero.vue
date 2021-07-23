@@ -37,6 +37,12 @@ main {
   width: 100%;
 }
 
+h1 {
+  margin: 0;
+  font-weight: 300;
+  font-size: clamp(32px, 4vw, 52px);
+}
+
 img {
   border:10px solid white;
   border-radius: 50%;

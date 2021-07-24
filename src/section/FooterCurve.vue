@@ -35,4 +35,10 @@ footer {
 img {
   width: clamp(42px, 8vw, 120px);
 }
+
+h1 {
+  color: #1c1c1c;
+  font-size: clamp(32px, 5vw, 72px);
+  transition: color 0.3s ease-in-out;
+}
 </style>

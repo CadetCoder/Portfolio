@@ -31,4 +31,8 @@ footer {
   width: 2px;
   background-color: #1c1c1c;
 }
+
+img {
+  width: clamp(42px, 8vw, 120px);
+}
 </style>

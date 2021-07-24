@@ -25,4 +25,10 @@ footer {
   background-color: white;
   user-select: none;
 }
+
+.vertical-divider {
+  height: 50%;
+  width: 2px;
+  background-color: #1c1c1c;
+}
 </style>

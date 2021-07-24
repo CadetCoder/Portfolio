@@ -44,4 +44,9 @@ h1 {
 h1:hover {
   color: #000000;
 }
+@media (max-width: 700px) {
+  footer {
+    width: 100vw;
+  }
+}
 </style>

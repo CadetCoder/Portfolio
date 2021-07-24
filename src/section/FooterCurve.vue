@@ -13,3 +13,16 @@ export default {
   name: "FooterCurve"
 }
 </script>
+
+<style scoped>
+footer {
+  height: 30vh;
+  width: 60vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: white;
+  user-select: none;
+}
+</style>

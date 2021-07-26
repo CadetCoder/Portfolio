@@ -98,4 +98,23 @@ export default {
   bottom: 29vh;
   left: 0;
 }
+
+.wave {
+  background: url("./assets/pattern/wave.svg") repeat-x;
+  position: absolute;
+  bottom: 0;
+  width: 6400px;
+  height: 198px;
+  animation: wave 30s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
 </style>

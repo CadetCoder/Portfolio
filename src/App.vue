@@ -53,6 +53,9 @@
     <Home id="home" class="section" />
     <Me id="me" class="section" />
     <FindMe id="find-me" />
+    <div class="ocean">
+      <div class="wave"></div>
+    </div>
   </div>
 </template>
 

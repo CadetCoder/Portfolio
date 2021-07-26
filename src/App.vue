@@ -91,4 +91,11 @@ export default {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+.ocean {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 29vh;
+  left: 0;
+}
 </style>

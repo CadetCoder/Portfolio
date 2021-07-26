@@ -91,6 +91,13 @@ export default {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
 .ocean {
   height: 100px;
   width: 100%;

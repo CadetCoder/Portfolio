@@ -61,9 +61,9 @@
 </template>
 
 <script>
-import Home from './section/Home'
-import Me from './section/Me'
-import FindMe from './section/FindMe'
+import Home from './section/Home.vue'
+import Me from './section/Me.vue'
+import FindMe from './section/FindMe.vue'
 import FooterCurve from './section/FooterCurve.vue'
 
 export default {

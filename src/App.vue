@@ -95,6 +95,11 @@ export default {
   font-family: "Roboto", sans-serif;
 }
 
+.section {
+  height: 100vh;
+  width: 100%;
+}
+
 .footer {
   display: flex;
   justify-content: center;

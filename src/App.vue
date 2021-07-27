@@ -57,6 +57,15 @@
       <div class="wave"></div>
     </div>
     <FooterCurve class="footer"/>
+     <transition name="image-preview-transititon">
+      <div
+        v-if="showImage"
+        class="image-preview-container"
+        @click="[(showImage = false), (previewImageUrl = '')]"
+      >
+        <img :src="previewImageUrl" class="image-preview" />
+      </div>
+    </transition>
   </div>
 </template>
 

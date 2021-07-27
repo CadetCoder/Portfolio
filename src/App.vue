@@ -105,6 +105,16 @@ export default {
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1c1c1c;
+  color: white;
+  position: relative;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 .section {
   height: 100vh;
   width: 100%;

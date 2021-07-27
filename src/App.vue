@@ -56,6 +56,7 @@
     <div class="ocean">
       <div class="wave"></div>
     </div>
+    <FooterCurve class="footer"/>
   </div>
 </template>
 
@@ -63,13 +64,15 @@
 import Home from './section/Home'
 import Me from './section/Me'
 import FindMe from './section/FindMe'
+import FooterCurve from './section/FooterCurve.vue'
 
 export default {
   name: 'App',
   components: {
     Home,
     Me,
-    FindMe
+    FindMe, 
+    FooterCurve
   },
   data() {
     return {

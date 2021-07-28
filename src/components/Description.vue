@@ -17,6 +17,15 @@
         @mouseleave="gHighlightRemove"
         >VueJs</span
       >
+      . Always puts effort in making User Interface beautiful and practical with
+      tools like
+      <span
+        ref="uidesign"
+        @mouseenter="uiHighlight"
+        @mouseleave="uiHighlightRemove"
+        >Photoshop, Wireframe and Figma</span
+      >
+      .
       <i class="fa fa-link" aria-hidden="true"></i>
     </p>
   </article>

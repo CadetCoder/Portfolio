@@ -10,6 +10,14 @@
         @mouseleave="reactiveHighlightRemove"
         >HTML, CSS, JavaScript</span
       >
+      and modern frameworks
+      <span
+        ref="gdesign"
+        @mouseenter="gHighlight"
+        @mouseleave="gHighlightRemove"
+        >VueJs</span
+      >
+      <i class="fa fa-link" aria-hidden="true"></i>
     </p>
   </article>
 </template>

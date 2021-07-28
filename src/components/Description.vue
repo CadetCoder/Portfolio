@@ -30,7 +30,8 @@
     <p>
       In my free time I work on cool projects while experimenting with new
       technologies. Currently I'm working on a social media style app with NodeJS, mySQL and Sequelize.
-    </p> <ul>
+    </p>
+    <ul>
       <li>
         <img src="../assets/icons/js.svg" alt="javascipt" />
       </li>

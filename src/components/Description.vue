@@ -30,5 +30,30 @@
     <p>
       In my free time I work on cool projects while experimenting with new
       technologies. Currently I'm working on a social media style app with NodeJS, mySQL and Sequelize.
-    </p>
+    </p> <ul>
+      <li>
+        <img src="../assets/icons/js.svg" alt="javascipt" />
+      </li>
+      <li>
+        <img src="../assets/icons/vue.svg" alt="vuejs" />
+      </li>
+      <li>
+        <img src="../assets/icons/react.svg" alt="reactjs" />
+      </li>
+      <li>
+        <img src="../assets/icons/nodejs.svg" alt="nodejs" />
+      </li>
+      <li>
+        <img src="../assets/icons/photoshop.svg" alt="photoshop" />
+      </li>
+      <li>
+        <img src="../assets/icons/figma.svg" alt="figma" />
+      </li>
+      <li>
+        <a :href="pdf" download>
+          <button>Resume</button>
+        </a>
+      </li>
+    </ul>
+  </article>
 </template>

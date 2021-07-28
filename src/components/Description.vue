@@ -26,7 +26,6 @@
         >Photoshop, Wireframe and Figma</span
       >
       .
-      <i class="fa fa-link" aria-hidden="true"></i>
     </p>
   </article>
 </template>

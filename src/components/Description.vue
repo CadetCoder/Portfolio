@@ -58,3 +58,16 @@
     </ul>
   </article>
 </template>
+
+<script>
+import { TimelineLite } from "gsap/dist/gsap"
+
+export default {
+  name: "Description",
+  data() {
+    return {
+      pdf: require("../assets/darrel_resume.pdf")
+    }
+  }
+}
+</script>

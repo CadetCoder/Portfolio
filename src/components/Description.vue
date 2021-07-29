@@ -145,4 +145,13 @@ img {
   filter: grayscale();
   transition: filter 0.2s ease-in-out;
 }
+button {
+  height: 30px;
+  border: none;
+  font-size: 18px;
+  font-weight: 900;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
 </style>

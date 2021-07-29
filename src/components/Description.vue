@@ -68,6 +68,56 @@ export default {
     return {
       pdf: require("../assets/darrel_resume.pdf")
     }
+  },
+  methods: {
+    reactiveHighlight() {
+      const tl = new TimelineLite();
+      const { reactive } = this.$refs;
+      tl.to(reactive, {
+        backgroundColor: "#1a1a1a",
+        color: "white",
+      });
+    },
+    reactiveHighlightRemove() {
+      const tl = new TimelineLite();
+      const { reactive } = this.$refs;
+      tl.to(reactive, {
+        backgroundColor: "#141414",
+        color: "#8d8d8d",
+      });
+    },
+    uiHighlight() {
+      const tl = new TimelineLite();
+      const { uidesign } = this.$refs;
+      tl.to(uidesign, {
+        backgroundColor: "#1a1a1a",
+        color: "white",
+      });
+    },
+    uiHighlightRemove() {
+      const tl = new TimelineLite();
+      const { uidesign } = this.$refs;
+      tl.to(uidesign, {
+        backgroundColor: "#141414",
+        color: "#8d8d8d",
+      });
+    },
+    gHighlight() {
+      const tl = new TimelineLite();
+      const { gdesign } = this.$refs;
+      tl.to(gdesign, {
+        backgroundColor: "#1a1a1a",
+        color: "white",
+      });
+    },
+    gHighlightRemove() {
+      const tl = new TimelineLite();
+      const { gdesign } = this.$refs;
+      tl.to(gdesign, {
+        backgroundColor: "#141414",
+        color: "#8d8d8d",
+      });
+    },
   }
 }
 </script>

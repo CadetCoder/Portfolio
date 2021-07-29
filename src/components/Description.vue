@@ -140,4 +140,9 @@ ul {
   display: flex;
   justify-content: space-around;
 }
+img {
+  height: 30px;
+  filter: grayscale();
+  transition: filter 0.2s ease-in-out;
+}
 </style>

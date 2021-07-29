@@ -128,4 +128,10 @@ p {
   line-height: 2;
   color: #9d9d9d;
 }
+
+h2 {
+  font-size: clamp(24px, 3vw, 3vw);
+  font-weight: 300;
+  margin: 0;
+}
 </style>

@@ -154,4 +154,8 @@ button {
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
 }
+
+button:hover {
+  background-color: #59ff9c;
+}
 </style>

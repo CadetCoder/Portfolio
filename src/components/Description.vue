@@ -134,4 +134,10 @@ h2 {
   font-weight: 300;
   margin: 0;
 }
+ul {
+  margin-top: clamp(3em, 4vw, 4vw);
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
 </style>

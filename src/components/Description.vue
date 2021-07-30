@@ -163,4 +163,11 @@ img:hover {
   filter: none;
 }
 
+span {
+  background-color: #141414;
+  margin: 0.3em;
+  padding: 0.3em 0.7em;
+  color: #8d8d8d;
+}
+
 </style>

@@ -2,7 +2,10 @@
   <div class="main-container">
     <h1>Contact Me</h1>
     <div class="find-me-container">
-      <img ref="img" src="" alt="">
+      <img
+        ref="img"
+        src="../assets/images/home-img.jpg"
+        alt="Self portrait of Darrel">
       <div class="icons">
         <FindMeIcons
           class="email"

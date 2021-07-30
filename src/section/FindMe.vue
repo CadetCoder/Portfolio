@@ -41,6 +41,14 @@ export default {
         boxShadow: "0px 0px 15px 0px rgba(0,0,0,0.55)",
         scale: 1.1,
       });
+    },
+    imagePopdown() {
+      const img = this.$refs.img;
+      const tl = new TimelineLite();
+
+      tl.to(img, {
+        scale: 1,
+      });
     }
   },
 }

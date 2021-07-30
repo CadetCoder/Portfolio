@@ -5,7 +5,10 @@
       <img
         ref="img"
         src="../assets/images/home-img.jpg"
-        alt="Self portrait of Darrel">
+        alt="Self portrait of Darrel"
+        @mouseenter="imagePopup"
+        @mouseleave="imagePopdown"  
+       />
       <div class="icons">
         <FindMeIcons
           class="email"
@@ -28,6 +31,17 @@ export default {
   name: "FindMe",
   components:{
     FindMeIcons
-  }
+  },
+  methods: {
+    imagePopup() {
+      const img = this.$refs.img;
+      const tl = new TimelineLite();
+
+      tl.to(img, {
+        boxShadow: "0px 0px 15px 0px rgba(0,0,0,0.55)",
+        scale: 1.1,
+      });
+    }
+  },
 }
 </script>

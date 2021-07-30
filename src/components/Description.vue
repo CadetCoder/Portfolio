@@ -170,4 +170,11 @@ span {
   color: #8d8d8d;
 }
 
+@media (max-width: 700px) {
+  img,
+  button {
+    height: 20px;
+  }
+}
+
 </style>

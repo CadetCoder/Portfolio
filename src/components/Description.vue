@@ -158,4 +158,9 @@ button {
 button:hover {
   background-color: #59ff9c;
 }
+
+img:hover {
+  filter: none;
+}
+
 </style>

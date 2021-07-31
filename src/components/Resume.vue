@@ -19,4 +19,8 @@ div {
   border-radius: 50%;
   padding: 0.5em;
 }
+
+div > img {
+  height: 100%;
+}
 </style>

@@ -32,4 +32,13 @@ img {
   margin-left: 0.5em;
   width: 1.2em;
 }
+.type-meta {
+  cursor: pointer;
+  margin-right: 2em;
+  border-radius: 30px;
+  background-color: #ffffff;
+  padding: 0.5em 1.5em;
+  color: #1c1c1c;
+  transition: all 0.2s ease-in;
+}
 </style>

@@ -23,3 +23,13 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+div {
+  display: flex;
+}
+img {
+  margin-left: 0.5em;
+  width: 1.2em;
+}
+</style>

@@ -6,3 +6,15 @@
     {{ type }} <img v-if="type === 'Favorites'" src="../assets/icons/star.svg" alt="favorites" />
   </div>
 </template>
+
+<script>
+export default {
+  name: "FilterTags",
+  props: {
+    type: {
+      type: String,
+      required: true
+    }
+  }
+};
+</script>

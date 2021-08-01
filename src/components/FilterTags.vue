@@ -14,6 +14,11 @@ export default {
     type: {
       type: String,
       required: true
+    },
+    state: {
+      type: Boolean,
+      required: false,
+      default: false
     }
   }
 };

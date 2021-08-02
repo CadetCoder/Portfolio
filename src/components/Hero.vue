@@ -61,4 +61,15 @@ img {
   border-radius: 50%;
   width: clamp(200px, 20vw, 20vw);
 }
+.title-wrapper {
+  cursor: pointer;
+  margin-top: 1.4em;
+  padding: 1em;
+  width: 100%;
+  background-color: white;
+  color: #1c1c1c;
+  transition: all 0.2s ease-in-out;
+  z-index: 2;
+  border-radius: 50px;
+}
 </style>

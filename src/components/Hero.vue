@@ -72,4 +72,7 @@ img {
   z-index: 2;
   border-radius: 50px;
 }
+.title-wrapper:hover {
+  background-color: #23c481;
+}
 </style>

@@ -41,4 +41,8 @@ img {
   color: #1c1c1c;
   transition: all 0.2s ease-in;
 }
+
+.type-meta:hover {
+  background-color: #59ff9c;
+}
 </style>

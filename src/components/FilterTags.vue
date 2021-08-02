@@ -45,4 +45,13 @@ img {
 .type-meta:hover {
   background-color: #59ff9c;
 }
+
+.type-meta-active {
+  cursor: pointer;
+  margin-right: 2em;
+  border-radius: 30px;
+  background-color: #59ff9c;
+  padding: 0.5em 1.5em;
+  color: #1c1c1c;
+}
 </style>

@@ -20,6 +20,23 @@
 export default {
   name: "Hero",
   methods: {
+    imagePopup() {
+      const img = this.$refs.img;
+      const tl = new TimelineLite();
+
+      tl.to(img, {
+        boxShadow: "0px 0px 15px 0px rgba(0,0,0,0.55)",
+        scale: 1.1,
+      });
+    },
+    imagePopdown() {
+      const img = this.$refs.img;
+      const tl = new TimelineLite();
+
+      tl.to(img, {
+        scale: 1,
+      });
+    },
     goToMe() {
       document.getElementById("me").scrollIntoView({
       behavior: "smooth"

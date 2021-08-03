@@ -75,4 +75,11 @@ img {
 .title-wrapper:hover {
   background-color: #23c481;
 }
+
+@media (max-width: 700px) {
+  main {
+    justify-content: center;
+    width: 100%;
+  }
+}
 </style>

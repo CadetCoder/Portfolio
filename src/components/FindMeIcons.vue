@@ -26,6 +26,14 @@ export default {
       type: String,
       required: false
     }
+  },
+  methods: {
+    openLink() {
+      if (this.title === "email") {
+        return;
+      }
+      window.open(this.link, "_blank", "noopener");
+    }
   }
 }
 </script>

@@ -76,4 +76,9 @@ img {
   opacity: 0.5;
   transition: opacity 0.2s ease-in-out;
 }
+strong {
+  font-size: clamp(16px, 1.1vw, 1.1vw);
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}
 </style>

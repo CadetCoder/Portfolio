@@ -67,4 +67,8 @@ export default {
 find-me-icons-main-container:hover strong {
   opacity: 0.9;
 }
+
+.find-me-icons-main-container:hover p {
+  opacity: 0.9;
+}
 </style>

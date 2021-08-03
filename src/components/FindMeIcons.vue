@@ -71,4 +71,9 @@ find-me-icons-main-container:hover strong {
 .find-me-icons-main-container:hover p {
   opacity: 0.9;
 }
+img {
+  width: clamp(35px, 2vw, 2vw);
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}
 </style>

@@ -92,4 +92,7 @@ p {
   flex-flow: row nowrap;
   align-items: center;
 }
+.find-me-icons-header * {
+  margin: 1em;
+}
 </style>

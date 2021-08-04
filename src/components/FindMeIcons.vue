@@ -87,4 +87,9 @@ p {
   opacity: 0.5;
   transition: opacity 0.2s ease-in-out;
 }
+.find-me-icons-header {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
 </style>

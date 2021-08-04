@@ -81,4 +81,10 @@ strong {
   opacity: 0.5;
   transition: opacity 0.2s ease-in-out;
 }
+p {
+  font-size: clamp(16px, 1vw, 1vw);
+  padding: 0 2em;
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}
 </style>

@@ -22,4 +22,9 @@ nav {
   width: 40vw;
   color: #1c1c1c;
 }
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: column nowrap;
+}
 </style>

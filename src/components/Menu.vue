@@ -27,4 +27,10 @@ ul {
   display: flex;
   flex-flow: column nowrap;
 }
+li {
+  font-size: clamp(40px, 5vw, 5vw);
+  font-weight: 700;
+  margin: 0.5em;
+  cursor: pointer;
+}
 </style>

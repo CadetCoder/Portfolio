@@ -13,3 +13,13 @@
     </ul>
   </nav>
 </template>
+
+<style scoped>
+nav {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 40vw;
+  color: #1c1c1c;
+}
+</style>

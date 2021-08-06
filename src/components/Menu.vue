@@ -48,4 +48,9 @@ a:hover {
   cursor: pointer;
   position: absolute;
 }
+@media (max-width: 700px) {
+  nav {
+    width: 100vw;
+  }
+}
 </style>

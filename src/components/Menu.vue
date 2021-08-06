@@ -33,4 +33,8 @@ li {
   margin: 0.5em;
   cursor: pointer;
 }
+a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
 </style>

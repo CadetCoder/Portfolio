@@ -41,4 +41,11 @@ a:hover {
   background-color: #1c1c1c;
   color: #59ff9c;
 }
+.close {
+  top: 2.5em;
+  right: 1.8em;
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+}
 </style>

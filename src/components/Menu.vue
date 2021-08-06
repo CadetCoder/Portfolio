@@ -37,4 +37,8 @@ a {
   color: #1c1c1c;
   text-decoration: none;
 }
+a:hover {
+  background-color: #1c1c1c;
+  color: #59ff9c;
+}
 </style>

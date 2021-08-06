@@ -7,9 +7,15 @@
       alt="close menu"
     />
     <ul>
-      <li><a>About Me</a></li>
-      <li><a>Projects</a></li>
-      <li><a>Find Me</a></li>
+      <li>
+        <a>About Me</a>
+      </li>
+      <li>
+        <a>Projects</a>
+      </li>
+      <li>
+        <a>Find Me</a>
+      </li>
     </ul>
   </nav>
 </template>

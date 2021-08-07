@@ -6,19 +6,30 @@
       @click="$emit('close')"
       alt="close menu"
     />
-    <ul>
+    <ul @click="$emit('close')">
       <li>
-        <a>About Me</a>
+        <a @click="openURL('me')">About Me</a>
       </li>
       <li>
-        <a>Projects</a>
+        <a @click="openURL('work')">Work</a>
       </li>
       <li>
-        <a>Find Me</a>
+        <a @click="openURL('find-me')">Find Me</a>
       </li>
     </ul>
   </nav>
 </template>
+
+<script>
+export default {
+  name: "Menu",
+  methods: {
+    openURL(url) {
+      document.getElementById(url).scrollIntoView({ behavior: "smooth" });
+    },
+  },
+};
+</script>
 
 <style scoped>
 nav {

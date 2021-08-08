@@ -48,4 +48,9 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+.title-type {
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+}
 </style>

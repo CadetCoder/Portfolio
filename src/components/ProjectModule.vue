@@ -38,5 +38,8 @@ export default {
   padding: 2em 2em 4em 2em;
   background-color: white;
   border-radius: 40px;
+  color: #1c1c1c;
+  width: 70vw;
+  max-width: 1000px;
 }
 </style>

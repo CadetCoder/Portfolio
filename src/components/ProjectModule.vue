@@ -23,3 +23,20 @@
     </header>
   </article>
 </template>
+
+<script>
+export default {
+  //
+}
+</script>
+
+<style scoped>
+.project-container {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 2em 2em 4em 2em;
+  background-color: white;
+  border-radius: 40px;
+}
+</style>

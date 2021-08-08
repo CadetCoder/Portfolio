@@ -42,4 +42,10 @@ export default {
   width: 70vw;
   max-width: 1000px;
 }
+header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <article>
+  <article class="project-container">
     <header>
       <div class="title-type">
         <h1></h1>

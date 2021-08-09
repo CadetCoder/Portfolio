@@ -28,6 +28,21 @@
       :alt="`Screenshot of ${projectName}`"
       @click="emitImage"
     />
+
+    <button v-if="read" @click="readMore" class="more">
+      <span v-if="type === 'Graphic Design'">
+        Watch
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="18"
+          viewBox="0 0 24 24"
+          width="18"
+        >
+          <path d="M0 0h24v24H0z" fill="none" />
+          <path d="M4.2,0.2v23.6L22.8,12L4.2,0.2z" /></svg
+      ></span>
+      <span v-else> Read More </span>
+    </button>
     </header>
   </article>
 </template>

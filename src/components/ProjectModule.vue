@@ -55,9 +55,9 @@ export default {
     content: {
       content: {
         type: String,
-        required: false,
+        required: false
       }
-  }
+  },
 }
 </script>
 

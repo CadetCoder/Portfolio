@@ -20,6 +20,14 @@
           />
         </a>
       </div>
+       <p v-if="content">
+    </p>
+    <img
+      class="cover-image"
+      :src="coverImage"
+      :alt="`Screenshot of ${projectName}`"
+      @click="emitImage"
+    />
     </header>
   </article>
 </template>

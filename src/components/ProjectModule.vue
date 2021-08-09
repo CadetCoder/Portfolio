@@ -21,6 +21,7 @@
         </a>
       </div>
        <p v-if="content">
+         {{ content }}
     </p>
     <img
       class="cover-image"
@@ -49,7 +50,14 @@
 
 <script>
 export default {
-  //
+  name: "ProjectModule",
+  props: {
+    content: {
+      content: {
+        type: String,
+        required: false,
+      }
+  }
 }
 </script>
 

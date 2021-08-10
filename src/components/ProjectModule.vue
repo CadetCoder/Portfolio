@@ -93,5 +93,6 @@ header {
   font-size: 1.4em;
   font-weight: 600;
   background-color: white;
+  color: #1c1c1c;
 }
 </style>

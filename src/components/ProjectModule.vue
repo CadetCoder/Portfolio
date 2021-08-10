@@ -82,4 +82,8 @@ header {
   user-select: none;
   transition: all 0.2s ease-in-out;
 }
+.type-meta:hover {
+  color: #939393;
+  background-color: #d8d8d8;
+}
 </style>

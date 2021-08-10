@@ -86,4 +86,12 @@ header {
   color: #939393;
   background-color: #d8d8d8;
 }
+
+.more {
+  cursor: pointer;
+  position: absolute;
+  font-size: 1.4em;
+  font-weight: 600;
+  background-color: white;
+}
 </style>

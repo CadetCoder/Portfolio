@@ -96,5 +96,6 @@ header {
   color: #1c1c1c;
   border: 4px solid #1c1c1c;
   border-radius: 15px;
+  padding: 0.5em;
 }
 </style>

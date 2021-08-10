@@ -94,5 +94,6 @@ header {
   font-weight: 600;
   background-color: white;
   color: #1c1c1c;
+  border-radius: 15px;
 }
 </style>

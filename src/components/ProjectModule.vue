@@ -48,18 +48,7 @@
   </article>
 </template>
 
-<script>
-export default {
-  name: "ProjectModule",
-  props: {
-    content: {
-      content: {
-        type: String,
-        required: false
-      }
-  },
-}
-</script>
+
 
 <style scoped>
 .project-container {
@@ -83,5 +72,14 @@ header {
   display: flex;
   align-items: center;
   flex-flow: row nowrap;
+}
+.type-meta {
+  margin-left: 2em;
+  border-radius: 30px;
+  background-color: #e8e8e8;
+  padding: 0.5em 1.5em;
+  color: #939393;
+  user-select: none;
+  transition: all 0.2s ease-in-out;
 }
 </style>

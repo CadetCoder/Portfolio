@@ -99,5 +99,7 @@ header {
   padding: 0.5em;
   bottom: 0;
   left: 50%;
+  transform: translate(-50%, 50%);
+  transition: all 0.2s ease-in-out;
 }
 </style>

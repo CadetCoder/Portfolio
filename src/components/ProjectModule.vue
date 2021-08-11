@@ -98,5 +98,6 @@ header {
   border-radius: 15px;
   padding: 0.5em;
   bottom: 0;
+  left: 50%;
 }
 </style>

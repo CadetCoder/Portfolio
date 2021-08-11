@@ -103,4 +103,9 @@ header {
   transition: all 0.2s ease-in-out;
   outline: none;
 }
+.more:hover {
+  background-color: #1c1c1c;
+  color: white;
+  border: 4px solid white;
+}
 </style>

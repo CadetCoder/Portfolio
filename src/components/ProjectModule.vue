@@ -115,4 +115,7 @@ header {
 .more:hover span {
   fill: #ffffff;
 }
+.more span svg {
+  margin-left: 0.2em;
+}
 </style>

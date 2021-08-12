@@ -125,4 +125,7 @@ header {
   opacity: 0.6;
   transition: opacity 0.2 ease-in-out;
 }
+.preview-platform-icons:hover {
+  opacity: 1;
+}
 </style>

@@ -108,4 +108,7 @@ header {
   color: white;
   border: 4px solid white;
 }
+.more:hover span {
+  fill: #ffffff;
+}
 </style>

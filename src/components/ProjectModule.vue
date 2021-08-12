@@ -108,6 +108,10 @@ header {
   color: white;
   border: 4px solid white;
 }
+.more span {
+  display: flex;
+  align-items: center;
+}
 .more:hover span {
   fill: #ffffff;
 }

@@ -118,4 +118,11 @@ header {
 .more span svg {
   margin-left: 0.2em;
 }
+.preview-platform-icons {
+  width: 30px;
+  font-weight: 600;
+  margin-left: 2em;
+  opacity: 0.6;
+  transition: opacity 0.2 ease-in-out;
+}
 </style>

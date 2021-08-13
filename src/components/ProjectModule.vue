@@ -131,5 +131,7 @@ header {
 .more span {
   display: flex;
   justify-content: center;
+  fill: #1c1c1c;
+  transition: all 0.2s ease-in-out;
 }
 </style>

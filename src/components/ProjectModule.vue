@@ -128,4 +128,8 @@ header {
 .preview-platform-icons:hover {
   opacity: 1;
 }
+.more span {
+  display: flex;
+  justify-content: center;
+}
 </style>

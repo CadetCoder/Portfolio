@@ -134,4 +134,11 @@ header {
   fill: #1c1c1c;
   transition: all 0.2s ease-in-out;
 }
+@media (max-width: 700px) {
+.project-container {
+    padding: 1em 1em 2em 1em;
+    width: 90vw;
+    border-radius: 15px;
+  }
+}
 </style>

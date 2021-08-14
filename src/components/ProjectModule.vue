@@ -140,5 +140,9 @@ header {
     width: 90vw;
     border-radius: 15px;
   }
+  
+.cover-image {
+    border-radius: 5px;
+  }
 }
 </style>

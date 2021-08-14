@@ -144,5 +144,9 @@ header {
 .cover-image {
     border-radius: 5px;
   }
+  
+.preview-platform-icons {
+    width: 20px;
+  }
 }
 </style>

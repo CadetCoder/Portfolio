@@ -148,5 +148,12 @@ header {
 .preview-platform-icons {
     width: 20px;
   }
+.type-meta {
+    margin-left: 1em;
+    border-radius: 30px;
+    background-color: #e8e8e8;
+    padding: 0.5em 1.5em;
+    color: #939393;
+  }
 }
 </style>

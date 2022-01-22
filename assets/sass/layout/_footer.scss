@@ -36,8 +36,10 @@
   }
 
   .icon-heart {
+    color: #169c9e;
     animation: heartBeat 1000ms infinite linear;
     font-size: 18px;
+    content: "";
   }
 
   @include breakpoint('<=medium') {

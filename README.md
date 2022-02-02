@@ -1,4 +1,4 @@
-# portt
+# Portfolio
 
 ## Project setup
 ```

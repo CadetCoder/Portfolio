@@ -1,9 +1,9 @@
 <template>
   <div class="home">
-    <v-img 
+    <v-img
     dark
     max-height="500px"
-    src="/Users/Darrel/Desktop/Portfolio/src/assets/one.jpg"></v-img>
+    src="/Users/Darrel/Desktop/Portfolio/src/assets/one.jpg">
 
     <v-layout fill-height align-center>
         <v-container>
@@ -19,7 +19,8 @@
           </v-row>
         </v-container>
       </v-layout>
-      
+    </v-img>
+
   </div>
 </template>
 

@@ -21,6 +21,14 @@
       </v-layout>
     </v-img>
 
+    <v-container class="mt-5">
+      <v-layout wrap>
+        <v-flex xs12>
+          <div class="display-1 font-weight-bold" id="about">This is me</div>
+        </v-flex>
+      </v-layout>
+    </v-container>
+
   </div>
 </template>
 

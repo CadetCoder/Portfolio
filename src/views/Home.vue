@@ -26,6 +26,12 @@
         <v-flex xs12>
           <div class="display-1 font-weight-bold" id="about">This is me</div>
         </v-flex>
+        <v-flex xs12 mt-5>
+          <div class="body-1">{{aboutText}}</div>
+          <div
+            class="body-1 mt-3"
+          >Working on starting an app development business and always looking for new clients! Would love to talk to you about your idea.</div>
+        </v-flex>
       </v-layout>
     </v-container>
 

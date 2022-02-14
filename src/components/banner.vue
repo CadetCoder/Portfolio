@@ -6,7 +6,7 @@
             <h1 class="heading ma-0 pa-0 "> Darrel Toledo Portfolio </h1>
             <h2 class="secondary-text"> Web <span> Developer </span> Portfolio </h2>
             <v-btn color="accent" outlined class="btn my-8">
-                View more 
+                get my resume 
             </v-btn>
           </div>
     </div>

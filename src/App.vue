@@ -1,39 +1,67 @@
 <template>
   <v-app>
-    <NavBar />
-    <router-view />
+      <homepage id='h' app>
+      </homepage>
+
   </v-app>
 </template>
 
 <script>
-import NavBar from "./components/NavBar"
+import homepage from './pages/homepage.vue'
 export default {
-  name: "App",
+  name: 'App',
+  
   components: {
-    NavBar
-  }
-}
+      homepage
+    
+     },
+
+  data: () => ({
+    //
+  }),
+};
 </script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+:root{
+
+  --main-bg-color :#1a1a1d;
+  --gray : #4e4e50;
+  --highlight-color : #950740;
+  --accent-color:#c30734;
+  --dark-accent : #6f2232;
+  --primary-font : 'Montserrat', sans-serif;
+  --secondary-font :  'Work Sans', sans-serif; 
+}
+
+.work-sans{
+  font-family: 'Work Sans', sans-serif;
+  
+}
+
+.montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
+body {
+ font-family: 'Work Sans', sans-serif;
+ font-weight: 300;
+ overflow:hidden;
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 900;
 }
 </style>
+
+
+

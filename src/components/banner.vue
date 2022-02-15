@@ -2,11 +2,10 @@
     <div class="banner d-flex flex-column justify-center align-items-center  ">
           
           <div class="intro">
-            <p class="ma-0 pa-0">Introducting</p>
-            <h1 class="heading ma-0 pa-0 "> Darrel Toledo Portfolio </h1>
-            <h2 class="secondary-text"> Web <span> Developer </span> Portfolio </h2>
-            <v-btn color="accent" outlined class="btn my-8">
-                get my resume 
+            <p class="ma-0 pa-0">Hello! I'm</p>
+            <h1 class="heading ma-0 pa-0 "> Darrel Toledo </h1>
+            <h2 class="secondary-text"> A Web <span> Developer </span></h2>
+            <v-btn color="accent" outlined class="btn my-8" download="Darrel resume" href="src/assets/dtoledoCV.pdf">get my resume
             </v-btn>
           </div>
     </div>

@@ -1,7 +1,7 @@
 <template>
     <v-container fluid class='ma-0 portfolio' id='portfolio'>
         <h2 class=''>
-            Portfolio
+            My Projects
         </h2>
         <v-container fluid class="projects pa-4">
             <v-row align="center"

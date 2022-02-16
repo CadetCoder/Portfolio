@@ -30,18 +30,18 @@ export default new Vuex.Store({
       ],
       projects: [
           {
-                name:"Quotsy",
-                description:"Quotes and Poetry Website.",
+                name:"Go Mike Design",
+                description:"Go Mike Design is an optimised SEO Website.",
                 tech_stack:["Django"],
-                img:"https://res.cloudinary.com/dh3azc5sk/image/upload/v1610887992/Portfolio/images_61_bdofvp.jpg",
-                url:"https://quotsy..com"
+                img:".src/assets/GoMike.png",
+                url:"https://website-seo.vercel.app/"
             },
             {
-                name:"new Site ",
-                description:"For coding and Tech geeks",
+                name:"The Travel App",
+                description:"App using Vue.js ",
                 tech_stack:["Django"],
-                img:"https://res.cloudinary.com/dh3azc5sk/image/upload/v1610887992/Portfolio/images_62_qt6nou.jpg",
-                url:"#"
+                img:"",
+                url:"https://the-travel-app.vercel.app/"
             },
         
         ]

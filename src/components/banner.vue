@@ -5,7 +5,7 @@
             <p class="ma-0 pa-0">Hello! I'm</p>
             <h1 class="heading ma-0 pa-0 "> Darrel Toledo </h1>
             <h2 class="secondary-text"> A Web <span> Developer </span></h2>
-            <v-btn color="accent" outlined class="btn my-8"><a href=".src/assets/dtoledoCV.pdf" download>get my resume</a>
+            <v-btn color="accent" outlined class="btn my-8"><a href="..src/assets/dtoledoCV.pdf" download>get my resume</a>
             </v-btn>
           </div>
     </div>

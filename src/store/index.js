@@ -39,7 +39,7 @@ export default new Vuex.Store({
             {
                 name:"The Travel App",
                 description:"App using Vue.js ",
-                tech_stack:["Django"],
+                tech_stack:["Vue"],
                 img:"",
                 url:"https://the-travel-app.vercel.app/"
             },

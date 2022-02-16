@@ -3,19 +3,19 @@
         <v-row >
 
            <v-col class="" xs="12" sm="12"  md="4"> 
-               <h2 id="title"> My Services </h2> 
+               <h2 id="title"> Technologies </h2> 
             </v-col>
            
            <v-col class="service-names " xs="12"  sm="12" md="4">
-              <p> Lorem </p>
-              <p>  Lorem </p>
-              <p>  Designing </p>
+              <p> HTML5 </p>
+              <p>  CSS3 </p>
+              <p>  JavaScript </p>
            </v-col>
 
            <v-col class="service-names " xs="12"  sm="12" md="4" >
-               <p>Lorem</p>
-              <p> Branding</p>
-              <p> Seo </p>
+               <p>Wordpress</p>
+              <p> Vue </p>
+              <p> Vuetify  </p>
            </v-col>
 
         </v-row>

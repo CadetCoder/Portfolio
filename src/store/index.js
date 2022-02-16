@@ -32,7 +32,7 @@ export default new Vuex.Store({
           {
                 name:"Go Mike Design",
                 description:"Go Mike Design is an optimised SEO Website.",
-                tech_stack:["Django"],
+                tech_stack:["Javascript"],
                 img:".src/assets/GoMike.png",
                 url:"https://website-seo.vercel.app/"
             },

@@ -97,7 +97,7 @@
                         console.log(JSON.stringify(res));
                         this.loading=false;
                         this.$refs.form.reset();
-                        this.message='message sent successfull';
+                        this.message='message sent successful';
                      })             
                  }
                 this.loading=false;                  

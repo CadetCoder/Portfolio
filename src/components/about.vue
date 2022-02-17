@@ -4,9 +4,9 @@
           <v-col class="col-xs-12">
             
             <h2> ABOUT ME</h2>
-            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non adipisci laboriosam placeat nihil ullam dolorum beatae voluptatum, eligendi cum alias.</p>
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, perspiciatis.</p>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio pariatur eius iusto quam totam placeat. Assumenda amet aperiam quasi architecto eum? Fuga debitis beatae amet a? Dolore, libero similique. Eligendi.</p>
+            <p>Who Am I?</p>
+            <p>A junior web developer, who aims to work with small businesses and marginalised communities to bring their passions to life.</p>
+            <p> Currently I focus on MEVN stack and wordpress, but still exploring other technologies and frameworks that catch my interest! if you're looking for a developer to add to your team, I'd love to hear from you!</p>
           </v-col>
           <v-col class="col-xs-12">
               <v-img src="../assets/portrait.jpg" max-width="500px" contain >

@@ -32,7 +32,7 @@ export default new Vuex.Store({
           {
                 name:"Go Mike Design",
                 description:"Go Mike Design is an optimised SEO Website.",
-                tech_stack:["Javascript"],
+                tech_stack:["JavaScript"],
                 img:".src/assets/GoMike.png",
                 url:"https://website-seo.vercel.app/"
             },
@@ -40,7 +40,7 @@ export default new Vuex.Store({
                 name:"The Travel App",
                 description:"App using Vue.js ",
                 tech_stack:["Vue"],
-                img:"",
+                img:"blob:https://vercel.com/a1fbc529-f5e8-47f6-bfd3-7bc86e29e326",
                 url:"https://the-travel-app.vercel.app/"
             },
         

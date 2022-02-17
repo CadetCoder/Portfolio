@@ -28,7 +28,7 @@
             </p>
 
             <p class="gray pb-3 credit">
-                Designed and Developed with  ❤️  by <a href="#">darrel Toledo</a>
+                Designed and Developed with  ❤️  by <a href="https://dtoledo-portfolio.vercel.app/">darrel Toledo</a>
             </p>
 
         </v-container>

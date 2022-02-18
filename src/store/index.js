@@ -21,7 +21,7 @@ export default new Vuex.Store({
           },
           {
               icon:'mdi-github',
-              src:'#'
+              src:'https://github.com/cadetCoder'
           },
           {
               icon:'mdi-instagram',

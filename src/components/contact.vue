@@ -14,7 +14,7 @@
                      Connect
                  </h2>
                  <p>
-                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     Email Me
                  </p>
             </v-col>
            

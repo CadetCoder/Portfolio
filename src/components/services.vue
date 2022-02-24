@@ -7,9 +7,9 @@
             </v-col>
            
            <v-col class="service-names " xs="12"  sm="12" md="4">
-              <p> HTML5 </p>
-              <p>  CSS3 </p>
-              <p>  JavaScript </p>
+              <p>HTML5</p>
+              <p>CSS3</p>
+              <p>JavaScript</p>
            </v-col>
 
            <v-col class="service-names " xs="12"  sm="12" md="4" >

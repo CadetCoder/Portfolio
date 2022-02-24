@@ -1,10 +1,10 @@
 <template>
     <div class="banner d-flex flex-column justify-center align-items-center  ">
-          
+
           <div class="intro">
             <p class="ma-0 pa-0">Hello! I'm</p>
             <h1 class="heading ma-0 pa-0 "> Darrel Toledo </h1>
-            <h2 class="secondary-text"> A Web <span> Developer </span></h2>
+            <h2 class="secondary-text typewrite" data-period="2000" data-type='[ "I code.", "I am a Web Developer", "I Love to Develop", "I Love Design"]'> <span class="wrap"></span></h2>
             <v-btn color="accent" outlined class="btn my-8"><a href="..src/assets/dtoledoCV.pdf" download>get my resume</a>
             </v-btn>
           </div>

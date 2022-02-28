@@ -38,6 +38,19 @@ img {
   object-fit: cover;
 }
 
+.section-title {
+  font-size: 4rem;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-align: center;
+}
+.section-title span {
+  color: crimson;
+}
+
 /* Hero */
 #hero {
   background-image: url(./images/hero-cover.jpeg);
@@ -129,18 +142,7 @@ img {
   margin: 0 auto;
   padding: 100px 0;
 }
-#services .section-title {
-  font-size: 4rem;
-  font-weight: 300;
-  color: black;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  letter-spacing: .2rem;
-  text-align: center;
-}
-#services .section-title span {
-  color: crimson;
-}
+
 #services .service-bottom {
   display: flex;
   align-items: center;
@@ -195,6 +197,10 @@ img {
 }
 
 /* End Services Section */
+
+/* Projects Section */
+
+/* End Projects Section */
 
 /* Keyframes */
 @keyframes text_reveal_box{

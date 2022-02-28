@@ -42,7 +42,7 @@ img {
 #hero {
   background-image: url(./images/hero-cover.jpeg);
   background-size: cover;
-  background-position: top center;
+  background-position: bottom center;
   position: relative;
   z-index: 1;
 }

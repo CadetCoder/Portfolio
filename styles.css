@@ -50,6 +50,33 @@ img {
 .section-title span {
   color: crimson;
 }
+.cta {
+  display: inline-block;
+  padding: 10px 30px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid crimson;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  margin-top: 30px;
+  transition: .3s ease;
+  transition-property: background-color, color;
+}
+.cta:hover {
+  color: white;
+  background-color: crimson;
+}
+
+.brand h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.brand h1 span {
+  color: crimson;
+}
 
 /* Hero */
 #hero {
@@ -114,23 +141,6 @@ img {
   background-color: crimson;
   animation: text_reveal_box 1s ease;
   animation-delay: .3s;
-}
-.cta {
-  display: inline-block;
-  padding: 10px 30px;
-  color: white;
-  background-color: transparent;
-  border: 2px solid crimson;
-  font-size: 2rem;
-  text-transform: uppercase;
-  letter-spacing: .1rem;
-  margin-top: 30px;
-  transition: .3s ease;
-  transition-property: background-color, color;
-}
-.cta:hover {
-  color: white;
-  background-color: crimson;
 }
 /* End Hero */
 
@@ -386,10 +396,59 @@ img {
   line-height: 2rem;
   font-weight: 500;
 }
+/* End Contact Section */
 
+/* Footer */
+#footer {
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
 
+#footer .footer {
+  min-height: 200px;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
 
-/* End COntact Section */
+#footer h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#footer .social-icons {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#footer .social-item {
+  height: 50px;
+  width: 50px;
+  margin: 0 5px;
+}
+
+#footer .social-item img {
+  filter: grayscale(1);
+  transition: .3s ease filter;
+}
+
+#footer .social-item img:hover {
+  filter: grayscale(0);
+}
+#footer p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+#footer p a {
+  color: crimson;
+  font-size: 1.3rem;
+}
+
+/* End Footer */
 
 /* Keyframes */
 @keyframes text_reveal_box{

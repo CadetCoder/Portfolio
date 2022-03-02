@@ -489,5 +489,12 @@ img {
     font-size: 7rem;
   }
   /* End Hero */
+
+  /* Technologies Section */
+  #services .service-bottom .service-item{
+    flex-basis: 45%;
+    margin: 2.5%;
+  }
+  /* End Technologies Section */
 }
 /* End Media Query for Tablet */

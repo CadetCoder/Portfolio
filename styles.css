@@ -163,7 +163,13 @@ img {
   cursor: pointer;
 }
 
-
+#header .hamburger .bar {
+  height: 2px;
+  width: 30px;
+  position: relative;
+  background-color: white;
+  z-index: -1;
+}
 
 /* End Header Section */
 

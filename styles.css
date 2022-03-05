@@ -89,6 +89,11 @@ img {
   height: auto;
 }
 
+#header .header {
+  min-height: 8vh;
+  background-color: rgb(31, 30, 30, 0.24);
+}
+
 /* End Header Section */
 
 /* Hero */

@@ -170,6 +170,16 @@ img {
   margin-right: 20%;
 }
 
+#header .hamburger:after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid white;
+  animation: hamburger_pulse 1s ease infinite;
+}
+
 #header .hamburger .bar {
   height: 2px;
   width: 30px;
@@ -595,6 +605,16 @@ img {
 /* End Footer */
 
 /* Keyframes */
+@keyframes hamburger_pulse {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.4);
+  }
+}
 @keyframes text_reveal_box{
   50% {
     width: 100%;

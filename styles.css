@@ -110,7 +110,7 @@ img {
   background-color: rgb(31, 30, 30);
   width: 100vw;
   height: 100vh;
-  left: 0;
+  left: 100%;
   top: 0;
   display: flex;
   flex-direction: column;
@@ -118,6 +118,10 @@ img {
   align-items: center;
   z-index: 1;
   overflow-x: hidden;
+}
+
+#header .nav-list ul.active {
+  left: 0;
 }
 
 #header .nav-list ul a {

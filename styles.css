@@ -118,6 +118,7 @@ img {
   align-items: center;
   z-index: 1;
   overflow-x: hidden;
+  transition: .5s ease left;
 }
 
 #header .nav-list ul.active {
@@ -165,6 +166,8 @@ img {
   justify-content: center;
   z-index: 100;
   cursor: pointer;
+  transform: scale(.8);
+  margin-right: 20%;
 }
 
 #header .hamburger .bar {

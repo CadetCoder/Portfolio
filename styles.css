@@ -171,6 +171,12 @@ img {
   z-index: -1;
 }
 
+#header .hamburger.active .bar::before,
+#header .hamburger.active .bar::after {
+  top: 0;
+  bottom: 0;
+}
+
 #header .hamburger .bar::after,
 #header .hamburger .bar::before {
   content: '';

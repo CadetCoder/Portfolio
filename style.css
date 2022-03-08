@@ -79,6 +79,11 @@ img {
   color: crimson;
 }
 
+p span {
+  color: crimson;
+  font-weight: 550;
+}
+
 /* Header Section*/
 
 #header {

@@ -425,12 +425,20 @@ p span {
   font-size: 1.8rem;
   font-weight: 500;
   margin-top: 10px;
+  padding: 5px 15px;
   color: white;
+  background-color: transparent;
+  border: 1px solid crimson;
+  border-radius: 5px;
+  transition: .3s ease;
+  transition-property: background-color, color;
 }
 
 #projects .project-info a:hover {
-  color: crimson;
-}
+    color: white;
+    background-color: crimson;
+  }
+
 
 #projects .project-info p {
   color: white;

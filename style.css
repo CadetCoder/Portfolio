@@ -702,6 +702,7 @@ p span {
   }
   #projects .all-projects .project-img {
     height: 100%;
+    padding: 20px;
   }
   /* End Projects */
 
